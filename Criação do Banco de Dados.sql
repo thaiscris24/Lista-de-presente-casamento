@@ -9,7 +9,6 @@ CREATE TABLE Usuarios (
     email VARCHAR(255) UNIQUE NOT NULL,
     senha VARCHAR(255) NOT NULL,
     data_cadastro DATETIME DEFAULT CURRENT_TIMESTAMP,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo'
 );
 
 -- Tabela de Casais
@@ -17,8 +16,6 @@ CREATE TABLE Casais (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome_do_casal VARCHAR(255) NOT NULL,
     data_de_casamento DATE NOT NULL,
-    endereco_do_casamento VARCHAR(255),
-    mensagem_do_casal TEXT
 );
 
 -- Tabela de Listas de Presentes
@@ -38,5 +35,4 @@ CREATE TABLE Compradores (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255),
-    mensagem_para_o_casal TEXT
 );
