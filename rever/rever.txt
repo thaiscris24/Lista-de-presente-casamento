@@ -1,0 +1,2 @@
+1) A tabela compradores, deve receber a chave estrangiera de Itens.
+Para saber qual produto o comprador escolheu.
