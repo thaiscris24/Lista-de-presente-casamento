@@ -1,7 +1,8 @@
 # Projeto Lista de Presente | Criação de base de dados / criação de models 
 
 ## 📷 Telas
-![image](https://github.com/user-attachments/assets/09df507e-c24e-4e01-998a-37b8b1800cba)
+![image](https://github.com/user-attachments/assets/d0a5f424-1bdf-4472-a637-36a4741702cf)
+
 
 
 
